@@ -1,5 +1,5 @@
 ![iClassicMDM](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/icmdm-good-logo_orig.png)
-        
+         
 ## Introduction
 iClassicMDM by IHF Infotech, is a Master Data Management application to consolidate, deduplicate, rank by reliable sources and create golden records.  It has built in data stewardship workflow, data quality cleansing and matching, etl, data Flows pipelines, data modeler, api builder, data store and deployment automation.   Built with a passion to simplify and enable, data management for individuals and enterprises of all size.  It has built in data bases enabling this to run on all OS - Linux, Windows, Mac & on all IOT devices.
 
