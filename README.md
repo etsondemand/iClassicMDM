@@ -74,8 +74,11 @@ click on the match group you just created
 you can now configure one or many match rules and rank it based on priority 
 ![View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/configurematchrules_orig.png)
 
+select match rule on First Name, exact match, assign this to a new rule id
+![Configure new rule](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addnewmatchruleforpersongroup_orig.png)
 
-
+you can combine multiple columns within a rule by assigning to the existing rule, you can also choose parent or child columns to expand your match rule. These are called match rule hops. 
+![Save and View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewmatchrulesforpersongroup_orig.png)
 
 ### Quick tour
  
