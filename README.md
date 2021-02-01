@@ -81,6 +81,7 @@ you can combine multiple columns within a rule by assigning to the existing rule
 ![Save and View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewmatchrulesforpersongroup_orig.png)
 
 ### Quick tour
+Shortly we will be adding a quick tour to our software
  
 #### Modeling
 iClassicMDM allows you to create your own models. 
