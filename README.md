@@ -80,6 +80,13 @@ select match rule on First Name, exact match, assign this to a new rule id
 you can combine multiple columns within a rule by assigning to the existing rule, you can also choose parent or child columns to expand your match rule. These are called match rule hops. 
 ![Save and View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewmatchrulesforpersongroup_orig.png)
 
+let's add cleanse rules by accessing the rules menu by pressing the back arrow in the popup screen. 
+![View Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessrules_orig.png)
+
+click on Cleanse 
+
+
+
 ### Quick tour
 Shortly we will be adding a quick tour to our software
  
