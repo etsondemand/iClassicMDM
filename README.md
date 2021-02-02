@@ -84,7 +84,7 @@ let's add cleanse rules by accessing the rules menu by pressing the back arrow i
 ![View Rules](https://ihfinfotech.github.io/icmdmimages/accessrules.PNG)
 
 click on Cleanse 
-
+![View Cleanse Group](https://ihfinfotech.github.io/icmdmimages/accesscleanserulegroup.PNG)
 
 
 ### Quick tour
