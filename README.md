@@ -151,7 +151,7 @@ Shortly we will be adding a quick tour to our software
  
 #### Modeling
 iClassicMDM allows you to create your own models. 
-
+ 
 ### Support or Contact
 
 Email us at info@ihfinfotech.com . 
