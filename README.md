@@ -169,7 +169,39 @@ now you can access your application by clicking the link under the Deployment Ty
 
 
 ### Quick tour
-Shortly we will be adding a quick tour to our software
+The application can be accessed from the main welcome menu. If you click the Home button, you should be able to view the following.  Notice that you will not see the newly created application, Master Data, in the dashboard. Now you can go ahead and either view the model or access the data.  Let's click on Manage Data.
+
+![Main Menu Updated](https://ihfinfotech.github.io/icmdmimages/applicationwelcomeupdatedwithmasterdataconfig.PNG)
+
+
+After clicking manage data, open the left hand side menu, Base to see the Search Person sub menu.
+![accessing mdm application ii](https://ihfinfotech.github.io/icmdmimages/mdmapplicationentry.PNG)
+
+click on Search Person, you will notice there is no new records in the application, let's add some data by clicking Add New button 
+![search person](https://ihfinfotech.github.io/icmdmimages/searchperson.PNG)
+
+the screen should look as follows 
+![add new person](https://ihfinfotech.github.io/icmdmimages/addnewperson.PNG)
+
+Let's create a record, with First Name as Som Matthew 
+
+![add new person sam matt](https://ihfinfotech.github.io/icmdmimages/addnewpersonsommatt.PNG) 
+
+& click save 
+![sam matt created](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
+
+notice, the cleanse rule kicked in and changed Som to Sam, a golden record was created with ID = 1, lets try to create one more record, called Som Matthew and see if the application's match rules gets triggered. 
+
+We will follow the same step as above to access the Add New window, 
+![second sam matt](https://ihfinfotech.github.io/icmdmimages/sammatthewii.PNG)
+
+after you hit Save, notice the record is merged with the existing one. Click on the Source Cross Ref under the Header screen for Sam Matthew.  You will notice 2 MDM records. Notice there is an Un Merge button, this is to undo the automatic merges.    
+![Same Matt Cross ref](https://ihfinfotech.github.io/icmdmimages/sammatthewcrossref.PNG)
+
+There are other scenarios you can perform under the Header Menu, such as view Merge Candidates, view History, look up which systems contributed to this golden record via accessing the reliability screen.  You can also unmerge records through the Source Cross Ref screen. If you have configured child screen, then they are visible under the Header menu as well. 
+
+![header menu](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
+
  
 #### Modeling
 iClassicMDM allows you to create your own models. 
