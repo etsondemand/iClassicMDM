@@ -101,8 +101,50 @@ add cleanse rule, remove extra space
 add another cleanse rule, replace character, replace Som to Sam
 ![Create cleanse rule b](https://ihfinfotech.github.io/icmdmimages/replaceSomtoSamcleanseruleforpersoncleansegroup.PNG)
 
-view the newly added rules
+view the newly added cleanse rules
 ![newly added cleanse rules](https://ihfinfotech.github.io/icmdmimages/addedcleanserulesundercleansepersongroup.PNG)
+
+let's get back to the rules menu by clicking the back arrow, we are now going to add some reliability rules. Reliability is to tell the system to trust one source over another source.  There is some seed data we are going to look at first to get an idea of this concept. 
+
+click on System menu to view the configured Systems. You can add any other systems that you need.
+![view systems](https://ihfinfotech.github.io/icmdmimages/viewsystemsforreliability.PNG)
+
+hit the back button to view the rules menu but now hit the rank menu to view the list of the configured ranks.  For now we will leave this setting as is.   
+![view ranks](https://ihfinfotech.github.io/icmdmimages/viewranksforreliability.PNG)
+
+hit the back arrow again, to view the rules, but this time hit the Reliability menu. 
+![add reliability](https://ihfinfotech.github.io/icmdmimages/addreliability.PNG)
+
+add new reliability, by selecting the FirstName, System as MDM and Rank as High
+![add new reliabilty setting](https://ihfinfotech.github.io/icmdmimages/addnewreliabilitysetting.PNG)
+
+hit save to view the newly created Reliability setting 
+![add new reliabilty setting](https://ihfinfotech.github.io/icmdmimages/viewreliabilityrules.PNG)
+
+To test the reliability rules, you will need to simulate creation or update to a Master data record through an API.  We will skip this portion but as foot note: API's can be accessed by going to Manage Configuration, picking the Configuration from the list, say "Contact Data Management", select the Deployment Group, and finally access the API through entry under the REST row.  We will deep dive in to this later in our advanced topic section.
+
+Next let's see the User Interface setup. The Entities are categorized in to Base and Reference.  The Base type of Entities are clubbed under menu Base, similarly for References. The User Interface has 3 portions, Search, New and Header section. As the model gets created the basic User Interface is also created along side.  Let's access them to see if they meet our needs. 
+
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG)
+
+click on the UI, and expand the treeview to see the menu and the UI sections. 
+![View UI Layout](https://ihfinfotech.github.io/icmdmimages/accessuilayout.PNG)
+
+let's quickly access each section to ensure the attributes are listed under each
+![View Search UI Layout](https://ihfinfotech.github.io/icmdmimages/searchuiforperson.PNG)
+
+Note: additional attributes from the Parent or Children can be made visible in a Search layout. 
+
+similarly click on New as well, note, new can also include Parent or Children attributes, this will ensure Parent is created first if not exists &  the children is created after the parent is created.
+
+![View New UI Layout](https://ihfinfotech.github.io/icmdmimages/newpersonuilayout.PNG)
+
+finally click on header menu, note: Header can display only its own attributes and its 
+
+![View Header UI Layout](https://ihfinfotech.github.io/icmdmimages/headerpersonuilayout.PNG)
+
+
+
 
 ### Quick tour
 Shortly we will be adding a quick tour to our software
