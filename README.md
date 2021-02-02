@@ -22,7 +22,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 Let's begin by creating a model.  Under the "Home", click menu "Manage Configurations"
 
-![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/accessaddmatchgroup.PNG)   
+![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
 
 after the page loads, click "Add Configuration"
 ![Add Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/published/manageconfigs.png?1612121439)
