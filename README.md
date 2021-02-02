@@ -28,7 +28,7 @@ Let's begin by creating a model.  Under the "Home", click menu "Manage Configura
 after the page loads, click "Add Configuration"
 ![Add Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/published/manageconfigs.png?1612121439)
   
-enter a new name, say "Master Data" 
+enter a new name, say "Master Data"  
 ![Add Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/newconfig_orig.png)
 
 click save, and hit Close. 
