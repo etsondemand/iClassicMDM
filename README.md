@@ -86,6 +86,23 @@ let's add cleanse rules by accessing the rules menu by pressing the back arrow i
 click on Cleanse 
 ![View Cleanse Group](https://ihfinfotech.github.io/icmdmimages/accesscleanserulegroup.PNG)
 
+add a cleanse group, CleansePerson 
+![Configure new cleanse group](https://ihfinfotech.github.io/icmdmimages/cleansegroupcleanseperson.PNG)
+
+hit Save, to view the newly created Cleanse Groups
+![Create cleanse groups](https://ihfinfotech.github.io/icmdmimages/listofcleansegroup.PNG)
+
+let's add some cleanse rules to this group, click the newly created cleanse group
+![Create cleanse groups](https://ihfinfotech.github.io/icmdmimages/cleanseruleunderpersoncleansegroup.PNG)
+
+add cleanse rule, remove extra space 
+![Create cleanse rule a](https://ihfinfotech.github.io/icmdmimages/personcleanseremoveextraspace.PNG)
+
+add another cleanse rule, replace character, replace Som to Sam
+![Create cleanse rule b](https://ihfinfotech.github.io/icmdmimages/replaceSomtoSamcleanseruleforpersoncleansegroup.PNG)
+
+view the newly added rules
+![newly added cleanse rules](https://ihfinfotech.github.io/icmdmimages/addedcleanserulesundercleansepersongroup.PNG)
 
 ### Quick tour
 Shortly we will be adding a quick tour to our software
