@@ -1,7 +1,3 @@
-![iClassicMDM](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/icmdm-good-logo_orig.png)
-
-![iClassicMDM](/icmdmimages/ICMDM-logo-700px-RGB.jpg)
-         
 ![iClassicMDM](https://ihfinfotech.github.io/icmdmimages/ICMDM-logo-700px-RGB.jpg)
          
 ## Introduction
@@ -26,7 +22,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 Let's begin by creating a model.  Under the "Home", click menu "Manage Configurations"
 
-![Configuration Menu](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/applicationwelcome_orig.png)   
+![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.png)   
 
 after the page loads, click "Add Configuration"
 ![Add Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/published/manageconfigs.png?1612121439)
