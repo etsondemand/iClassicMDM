@@ -143,6 +143,28 @@ finally click on header menu, note: Header can display only its own attributes a
 
 ![View Header UI Layout](https://ihfinfotech.github.io/icmdmimages/headerpersonuilayout.PNG)
 
+### Deploy application
+Go to the configuration menu, by hitting the home button, and then click the Manage Configuration menu.  
+![Access Master Data Config](https://ihfinfotech.github.io/icmdmimages/accessmasterdataconfig.PNG) 
+
+Validate the model, by clicking the Validate button.  Next let's assign the model to a deployment group, by selecting the Master Data configuration, and then click Assign configuration to deployment group" button 
+
+![Assign config to deployment](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup.PNG) 
+
+pick an unused deploymentgroup, in this case we will pick, containerd.
+![Assign config to deployment ii](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup_ii.PNG) 
+
+hit save and then press the close button. Now this should look as follows  
+![config assigned to deployment](https://ihfinfotech.github.io/icmdmimages/configassignedtodeploymentgroup.PNG)
+
+finally pick the deployment group and hit Deploy 
+![deploy config to deployment group](https://ihfinfotech.github.io/icmdmimages/beforedeployment.PNG)
+
+, this will create a database and move your configurations in to the respective schema. 
+![view ui links under deployment](https://ihfinfotech.github.io/icmdmimages/afterdeployment.PNG)
+
+now you can access your application by clicking the link under the Deployment Type, UI.  You should be able to see the screen below.  Congratulations you have created your first application.  
+![accessing mdm application](https://ihfinfotech.github.io/icmdmimages/mdmapplicationentry.PNG)
 
 
 
