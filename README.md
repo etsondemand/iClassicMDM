@@ -33,23 +33,23 @@ enter a new name, say "Master Data"
 click save, and hit Close. 
 
 select the newly configuration, Master Data, from the list below.
-![View Configuration](https://ihfinfotech.github.io/icmdmimages/listofconfigs_orig.png)
+![View Configuration](https://ihfinfotech.github.io/icmdmimages/listofconfigs_orig.PNG)
 
 click edit, to view the modeler window 
-![View Model](https://ihfinfotech.github.io/icmdmimages/managemodeler_orig.png)
+![View Model](https://ihfinfotech.github.io/icmdmimages/managemodeler_orig.PNG)
 
 click the Manage Model pen symbol, to access the Application Configuration 
-![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig_orig.png)
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig_orig.PNG)
 
 click glossary to add your first entity, Person & hit save 
-![View Application Config](https://ihfinfotech.github.io/icmdmimages/addnewpersonentity_orig.png)
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/addnewpersonentity_orig.PNG)
 
 click columns and create 2 columns, Person_ID (Primary key, Big Int) and FirstName (Varchar(50)), you can create as many columns as you want later 
 
 The attribute Name should not have space and ensure there is _ID for primary column  
-![Person ID](https://ihfinfotech.github.io/icmdmimages/addnewcolumnpersonid_orig.png)
+![Person ID](https://ihfinfotech.github.io/icmdmimages/addnewcolumnpersonid_orig.PNG)
 
-![Person First Name](https://ihfinfotech.github.io/icmdmimages/addcolumnfirstname_orig.png)
+![Person First Name](https://ihfinfotech.github.io/icmdmimages/addcolumnfirstname_orig.PNG)
 
 click close to view the columns that you just created 
 ![View Columns](https://ihfinfotech.github.io/icmdmimages/viewcolumnslist_orig.png)
