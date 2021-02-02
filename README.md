@@ -139,7 +139,7 @@ similarly click on New as well, note, new can also include Parent or Children at
 
 ![View New UI Layout](https://ihfinfotech.github.io/icmdmimages/newpersonuilayout.PNG)
 
-finally click on header menu, note: Header can display only its own attributes and its 
+finally click on header menu, note: Header can display only its own attributes and it's parents.  To choose Parent, pick the Foreign key, this will automatically pick the Parent attributes. 
 
 ![View Header UI Layout](https://ihfinfotech.github.io/icmdmimages/headerpersonuilayout.PNG)
 
