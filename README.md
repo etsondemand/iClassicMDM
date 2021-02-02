@@ -28,60 +28,60 @@ after the page loads, click "Add Configuration"
 ![Add Configuration](https://ihfinfotech.github.io/icmdmimages/manageconfigs.PNG)
    
 enter a new name, say "Master Data"  
-![Add Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/newconfig_orig.png)
+![Add Configuration](https://ihfinfotech.github.io/icmdmimages/newconfig_orig.png)
 
 click save, and hit Close. 
 
 select the newly configuration, Master Data, from the list below.
-![View Configuration](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/listofconfigs_orig.png)
+![View Configuration](https://ihfinfotech.github.io/icmdmimages/listofconfigs_orig.png)
 
 click edit, to view the modeler window 
-![View Model](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/managemodeler_orig.png)
+![View Model](https://ihfinfotech.github.io/icmdmimages/managemodeler_orig.png)
 
 click the Manage Model pen symbol, to access the Application Configuration 
-![View Application Config](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessmodelerconfig_orig.png)
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig_orig.png)
 
 click glossary to add your first entity, Person & hit save 
-![View Application Config](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addnewpersonentity_orig.png)
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/addnewpersonentity_orig.png)
 
 click columns and create 2 columns, Person_ID (Primary key, Big Int) and FirstName (Varchar(50)), you can create as many columns as you want later 
 
 The attribute Name should not have space and ensure there is _ID for primary column  
-![Person ID](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addnewcolumnpersonid_orig.png)
+![Person ID](https://ihfinfotech.github.io/icmdmimages/addnewcolumnpersonid_orig.png)
 
-![Person First Name](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addcolumnfirstname_orig.png)
+![Person First Name](https://ihfinfotech.github.io/icmdmimages/addcolumnfirstname_orig.png)
 
 click close to view the columns that you just created 
-![View Columns](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewcolumnslist_orig.png)
+![View Columns](https://ihfinfotech.github.io/icmdmimages/viewcolumnslist_orig.png)
 
 Next we are going to add Data Quality rules for cleansing, matching and reliability.  
 
 click the back arrow, to access the Application Configuration page.  
-![View Application Config](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessmodelerconfig_orig.png)
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig_orig.png)
 
 click on Rules
-![View Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessrules_orig.png)
+![View Rules](https://ihfinfotech.github.io/icmdmimages/accessrules_orig.png)
 
 click on Match 
-![Access Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessaddmatchgroup_orig.png) 
+![Access Match Rules](https://ihfinfotech.github.io/icmdmimages/accessaddmatchgroup_orig.png) 
 
 click on Add Match Group 
-![Add Match Group](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addpersonmatchgroup_orig.png) 
+![Add Match Group](https://ihfinfotech.github.io/icmdmimages/addpersonmatchgroup_orig.png) 
 
 click on the match group you just created 
-![Access Match Group](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewmatchgroupforperson_orig.png) 
+![Access Match Group](https://ihfinfotech.github.io/icmdmimages/viewmatchgroupforperson_orig.png) 
 
 you can now configure one or many match rules and rank it based on priority 
-![View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/configurematchrules_orig.png)
+![View Match Rules](https://ihfinfotech.github.io/icmdmimages/configurematchrules_orig.png)
  
 select match rule on First Name, exact match, assign this to a new rule id
-![Configure new rule](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/addnewmatchruleforpersongroup_orig.png)
+![Configure new rule](https://ihfinfotech.github.io/icmdmimages/addnewmatchruleforpersongroup_orig.png)
 
 you can combine multiple columns within a rule by assigning to the existing rule, you can also choose parent or child columns to expand your match rule. These are called match rule hops. 
-![Save and View Match Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/viewmatchrulesforpersongroup_orig.png)
+![Save and View Match Rules](https://ihfinfotech.github.io/icmdmimages/viewmatchrulesforpersongroup_orig.png)
 
 let's add cleanse rules by accessing the rules menu by pressing the back arrow in the popup screen. 
-![View Rules](https://www.ihfinfotech.com/uploads/1/1/5/0/115016273/accessrules_orig.png)
+![View Rules](https://ihfinfotech.github.io/icmdmimages/accessrules_orig.png)
 
 click on Cleanse 
 
