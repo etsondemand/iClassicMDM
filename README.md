@@ -1,11 +1,11 @@
 ![iClassicMDM](https://ihfinfotech.github.io/icmdmimages/ICMDM-logo-700px-RGB.jpg)
          
 ## Introduction
-iClassicMDM by IHF Infotech, is a Master Data Management application to consolidate, deduplicate, rank by reliable sources and create golden records.  It has built in data stewardship workflow, data quality cleansing and matching, etl, data Flows pipelines, data modeler, api builder, data store and deployment automation.   Built with a passion to simplify and enable, data management for individuals and enterprises of all size.  It has built in data bases enabling this to run on all OS - Linux, Windows, Mac & on all IOT devices.
+iClassicMDM by IHF Infotech, is an easy-to-use , yet powerful Master Data Management Application which seamlessly consolidates data, deduplicates, ranks by reliable source and creates trusted golden records.  The following rich features are baked into iClassic MDM: data stewardship workflows, data quality, cleansing, matching, ETL, data flow pipelines, a data modeler, API builder, data stores, and deployment automation.   iClassic MDM was built by a team that is deeply passionate and committed to simplifying data managements and puttign thsi mission critical iniitative within the reach of individuals and enterprises of all sizes.  iClassicMDM has built-in databases, thus enabling it to run on all operating systems OS - Linux, Windows, Mac & on all IOT devices.
 
 ### Installation
 
-Download iClassicMDM from, https://www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 , login using admin/admin credentials. 
+Download iClassicMDM from, https://www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
 
 ```markdown
 info: Microsoft.Hosting.Lifetime[0]
@@ -18,248 +18,248 @@ info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production 
 ```
  
-### Create your first app
+### Create your First App
 
-Let's begin by creating a model.  Under the "Home", click menu "Manage Configurations"
+Let's begin by creating a Model.  Under "Home", click on "Manage Configurations"
 
 ![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
 
-after the page loads, click "Add Configuration"
+ After the page loads, click "Add Configuration"
 ![Add Configuration](https://ihfinfotech.github.io/icmdmimages/manageconfigs.PNG)
      
-enter a new name, say "Master Data"  
+ Enter a new name, say for example "Master Data"  
 ![Add Configuration](https://ihfinfotech.github.io/icmdmimages/newconfig.PNG)
 
-click save, and hit Close. 
+ Click Save, and hit Close. 
 
-select the newly configuration, Master Data, from the list below.
+ Select the newly created configuration that was just created, "Master Data", from the list below.
 ![View Configuration](https://ihfinfotech.github.io/icmdmimages/listofconfigs.PNG)
 
-click edit, to view the modeler window 
+ Click Edit, to view the Modeler window 
 ![View Model](https://ihfinfotech.github.io/icmdmimages/managemodeler.PNG)
 
-click the Manage Model pen symbol, to access the Application Configuration 
+ Click the Manage Model pen symbol, to access the Application Configuration 
 ![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG)
 
-click glossary to add your first entity, Person & hit save 
+ Click Glossary to add your first entity, Person & click Save 
 ![View Application Config](https://ihfinfotech.github.io/icmdmimages/addnewpersonentity.PNG)
 
 click columns and create 2 columns, Person_ID (Primary key, Big Int) and FirstName (Varchar(50)), you can create as many columns as you want later 
 
-The attribute Name should not have space and ensure there is _ID for primary column  
+The attribute Name must not have any spaces. Also ensure there is _ID for primary column  
 ![Person ID](https://ihfinfotech.github.io/icmdmimages/addnewcolumnpersonid.PNG)
 
 ![Person First Name](https://ihfinfotech.github.io/icmdmimages/addcolumnfirstname.PNG)
 
-click close to view the columns that you just created 
+Click on Close to view the columns that you just created 
 ![View Columns](https://ihfinfotech.github.io/icmdmimages/viewcolumnslist.PNG)
 
-Next we are going to add Data Quality rules for cleansing, matching and reliability.  
+Next let us see How To Add Data Quality rules for Cleansing, Matching and Reliability.  
 
-click the back arrow, to access the Application Configuration page.  
+Click on the back arrow, to access the Application Configuration page.  
 ![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG)
 
-click on Rules
+Click on Rules
 ![View Rules](https://ihfinfotech.github.io/icmdmimages/accessrules.PNG)
 
-click on Match 
+Click on Match 
 ![Access Match Rules](https://ihfinfotech.github.io/icmdmimages/accessaddmatchgroup.PNG) 
 
-click on Add Match Group 
+Click on Add Match Group 
 ![Add Match Group](https://ihfinfotech.github.io/icmdmimages/addpersonmatchgroup.PNG) 
 
-click on the match group you just created 
+Click on the Match Group you just created 
 ![Access Match Group](https://ihfinfotech.github.io/icmdmimages/viewmatchgroupforperson.PNG) 
 
-you can now configure one or many match rules and rank it based on priority 
+At this point, users can configure just one or many match rules. The erules can be ranked based on priority 
 ![View Match Rules](https://ihfinfotech.github.io/icmdmimages/configurematchrules.PNG)
  
-select match rule on First Name, exact match, assign this to a new rule id
+Select Match Rule on First Name, Exact Match. Assign this to a new rule id
 ![Configure new rule](https://ihfinfotech.github.io/icmdmimages/addnewmatchruleforpersongroup.PNG)
 
-you can combine multiple columns within a rule by assigning to the existing rule, you can also choose parent or child columns to expand your match rule. These are called match rule hops. 
+You can combine multiple columns within a rule by assigning to the existing rule, OR you can choose parent or child columns to expand your match rule. These are called Match Rule Hops. 
 ![Save and View Match Rules](https://ihfinfotech.github.io/icmdmimages/viewmatchrulesforpersongroup.PNG)
 
-let's add cleanse rules by accessing the rules menu by pressing the back arrow in the popup screen. 
+To add Cleanse rules, users must access the Rules Menu by clciking the back arrow on the popup screen. 
 ![View Rules](https://ihfinfotech.github.io/icmdmimages/accessrules.PNG)
 
-click on Cleanse 
+Click on Cleanse 
 ![View Cleanse Group](https://ihfinfotech.github.io/icmdmimages/accesscleanserulegroup.PNG)
 
-add a cleanse group, CleansePerson 
+Add a cleanse group, CleansePerson 
 ![Configure new cleanse group](https://ihfinfotech.github.io/icmdmimages/cleansegroupcleanseperson.PNG)
 
-hit Save, to view the newly created Cleanse Groups
+ Click Save, to view the newly created Cleanse Groups
 ![Create cleanse groups](https://ihfinfotech.github.io/icmdmimages/listofcleansegroup.PNG)
 
-let's add some cleanse rules to this group, click the newly created cleanse group
+ To Add additional cleanse rules to this group, click on the newly created cleanse group
 ![Create cleanse groups](https://ihfinfotech.github.io/icmdmimages/cleanseruleunderpersoncleansegroup.PNG)
 
-add cleanse rule, remove extra space 
+ Add cleanse rule, and remove the extra space 
 ![Create cleanse rule a](https://ihfinfotech.github.io/icmdmimages/personcleanseremoveextraspace.PNG)
 
-add another cleanse rule, replace character, replace Som to Sam
+ Add another cleanse rule, replace character, replace Som to Sam
 ![Create cleanse rule b](https://ihfinfotech.github.io/icmdmimages/replaceSomtoSamcleanseruleforpersoncleansegroup.PNG)
 
-view the newly added cleanse rules
+View the newly added cleanse rules
 ![newly added cleanse rules](https://ihfinfotech.github.io/icmdmimages/addedcleanserulesundercleansepersongroup.PNG)
 
-let's get back to the rules menu by clicking the back arrow, we are now going to add some reliability rules. Reliability is to tell the system to trust one source over another source.  There is some seed data we are going to look at first to get an idea of this concept. 
+ To get back to the Rules Menu click on the back arrow. iClassicMDM allows users to add Reliability Rules. Reliability Rules tell the system to trust the credibility of one data source over another.  It is necessary to analyze seed data first, in order to understand this concept. 
 
 click on System menu to view the configured Systems. You can add any other systems that you need.
 ![view systems](https://ihfinfotech.github.io/icmdmimages/viewsystemsforreliability.PNG)
 
-hit the back button to view the rules menu but now hit the rank menu to view the list of the configured ranks.  For now we will leave this setting as is.   
+Click the back button to view the Rules Menu. Next click on the Rank Menu to view the list of the configured ranks. At this time, this setting can be left setting as is.   
 ![view ranks](https://ihfinfotech.github.io/icmdmimages/viewranksforreliability.PNG)
 
-hit the back arrow again, to view the rules, but this time hit the Reliability menu. 
+ Click the back arrow again, to view the Rules Menu, now click on the Reliability Menu. 
 ![add reliability](https://ihfinfotech.github.io/icmdmimages/addreliability.PNG)
 
-add new reliability, by selecting the FirstName, System as MDM and Rank as High
+ To add new Reliability Rules, select the FirstName, System as MDM, and Rank as High
 ![add new reliabilty setting](https://ihfinfotech.github.io/icmdmimages/addnewreliabilitysetting.PNG)
 
-hit save to view the newly created Reliability setting 
+ Click on Save to view the newly created Reliability Rule setting 
 ![add new reliabilty setting](https://ihfinfotech.github.io/icmdmimages/viewreliabilityrules.PNG)
 
-To test the reliability rules, you will need to simulate creation or update to a Master data record through an API.  We will skip this portion but as foot note: API's can be accessed by going to Manage Configuration, picking the Configuration from the list, say "Contact Data Management", select the Deployment Group, and finally access the API through entry under the REST row.  We will deep dive in to this later in our advanced topic section.
+To test the Reliability Rules, you will need to simulate the Creation or Update of a Master data record through an API.  For now we will skip this portion. However, as a foot note: API's can be accessed by going to Manage Configuration, picking the Configuration from the List, say "Contact Data Management", select the Deployment Group, and finally access the API through entry under the REST row.  We will deep dive into this feature later in our advanced topic section.
 
-Next let's see the User Interface setup. The Entities are categorized in to Base and Reference.  The Base type of Entities are clubbed under menu Base, similarly for References. The User Interface has 3 portions, Search, New and Header section. As the model gets created the basic User Interface is also created along side.  Let's access them to see if they meet our needs. 
+Next let's see the User Interface setup. The Entities are categorized as either -  Base and Reference.  The Base type of Entities are clubbed under menu Base, similarly for References. The User Interface has 3 portions, Search, New and Header. As the model gets created, the basic User Interface is also created along side.  Let's access them to see if they meet our needs. 
 
 ![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG)
 
-click on the UI, and expand the treeview to see the menu and the UI sections. 
+ Click on the UI, and expand the treeview to see the menu and the UI sections. 
 ![View UI Layout](https://ihfinfotech.github.io/icmdmimages/accessuilayout.PNG)
 
-let's quickly access each section to ensure the attributes are listed under each
+ Quickly access each section to ensure that Attributes are listed under each
 ![View Search UI Layout](https://ihfinfotech.github.io/icmdmimages/searchuiforperson.PNG)
 
-Note: additional attributes from the Parent or Children can be made visible in a Search layout. 
+Note: Additional Attributes from the Parent or Children can be made visible in a Search layout. 
 
-similarly click on New as well, note, new can also include Parent or Children attributes, this will ensure Parent is created first if not exists &  the children is created after the parent is created.
+Similarly by clicking on New: users can include Parent or Children attributes.Parent is created first (if not already created) &  the children are created only after the parent is created.
 
 ![View New UI Layout](https://ihfinfotech.github.io/icmdmimages/newpersonuilayout.PNG)
 
-finally click on header menu, note: Header can display only its own attributes and it's parents.  To choose Parent, pick the Foreign key, this will automatically pick the Parent attributes. 
+Finally click on Header Menu (Note: the Header can display only its own attributes and it's parents).  To choose Parent, pick the Foreign key, this will automatically pick the Parent attributes. 
 
 ![View Header UI Layout](https://ihfinfotech.github.io/icmdmimages/headerpersonuilayout.PNG)
 
 ### Deploy application
-Go to the configuration menu, by hitting the home button, and then click the Manage Configuration menu.  
+Go to the Configuration Menu, by clicking the Home button, Then click the Manage Configuration menu.  
 ![Access Master Data Config](https://ihfinfotech.github.io/icmdmimages/accessmasterdataconfig.PNG) 
 
-Validate the model, by clicking the Validate button.  Next let's assign the model to a deployment group, by selecting the Master Data configuration, and then click Assign configuration to deployment group" button 
+ To Validate the Model, click the Validate button.  Let us see teh steps to assign the model to a deployment group, Select the Master Data configuration, then click Assign  Configuration to deployment group" button 
 
 ![Assign config to deployment](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup.PNG) 
 
-pick an unused deploymentgroup, in this case we will pick, containerd.
+ Choose an unused deploymentgroup, in this case we will pick, containerd.
 ![Assign config to deployment ii](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup_ii.PNG) 
 
-hit save and then press the close button. Now this should look as follows  
+ Click Save and then press the Close button. Now this should look as follows  
 ![config assigned to deployment](https://ihfinfotech.github.io/icmdmimages/configassignedtodeploymentgroup.PNG)
 
-finally pick the deployment group and hit Deploy 
+ As a final step: pick the Deployment Group and hit Deploy 
 ![deploy config to deployment group](https://ihfinfotech.github.io/icmdmimages/beforedeployment.PNG)
 
-, this will create a database and move your configurations in to the respective schema. 
+ This will create a database and move your configurations in to the respective schema. 
 ![view ui links under deployment](https://ihfinfotech.github.io/icmdmimages/afterdeployment.PNG)
 
-now you can access your application by clicking the link under the Deployment Type, UI.  You should be able to see the screen below.  Congratulations you have created your first application.  
+ Now you can access your application by clicking the link under the Deployment Type, UI.  You should be able to see the screen below.  Congratulations you have created your first application.  
 ![accessing mdm application](https://ihfinfotech.github.io/icmdmimages/mdmapplicationentry.PNG)
 
 
 
 ### Quick tour
-The application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your first app" then you should see, Master Data, in the dashboard. Now you can go ahead and either view the model or access the data.  Let's click on Manage Data.
+The iClassid MDM application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your first app" then you should see, Master Data, in the dashboard. Now users can either view the model, or access the data.  Click on Manage Data.
 
 ![Main Menu Updated](https://ihfinfotech.github.io/icmdmimages/applicationwelcomeupdatedwithmasterdataconfig.PNG)
 
 
-After clicking manage data, open the left hand side menu, Base to see the Search Person sub menu.
+ After clicking Manage Data, open the left menu, Base to see the Search Person sub menu.
 ![accessing mdm application ii](https://ihfinfotech.github.io/icmdmimages/mdmapplicationentry.PNG)
 
-click on Search Person, you will notice there is no new records in the application, let's add some data by clicking Add New button 
+ Click on Search Person, you will notice there are no new records in the application. To add data, click on the Add New button 
 ![search person](https://ihfinfotech.github.io/icmdmimages/searchperson.PNG)
 
-the screen should look as follows 
+The screen should look as follows 
 ![add new person](https://ihfinfotech.github.io/icmdmimages/addnewperson.PNG)
 
 Let's create a record, with First Name as Som Matthew 
 
 ![add new person sam matt](https://ihfinfotech.github.io/icmdmimages/addnewpersonsommatt.PNG) 
 
-& click save 
+& Click Save 
 ![sam matt created](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
 
-notice, the cleanse rule kicked in and changed Som to Sam, a golden record was created with ID = 1, lets try to create one more record, called Som Matthew and see if the application's match rules gets triggered. 
+Note that the cleanse rule that we configured earlier, kicked in and changed Som to Sam, a golden record has been created with ID = 1. Now let's create one more record, called Som Matthew and see if the application's Match Rules are triggered. 
 
-We will follow the same step as above to access the Add New window, 
+ We will follow the same step as above to access the Add New window, 
 ![second sam matt](https://ihfinfotech.github.io/icmdmimages/sammatthewii.PNG)
 
-after you hit Save, notice the record is merged with the existing one. Click on the Source Cross Ref under the Header screen for Sam Matthew.  You will notice 2 MDM records. Notice there is an Un Merge button, this is to undo the automatic merges.    
+Click on Save. Users will notice that the record is merged with the existing one. Click on the Source Cross Ref under the Header screen for Sam Matthew.  Users will now notice 2 MDM records. Notice there is an Un Merge button, this is to undo automatic merges.    
 ![Same Matt Cross ref](https://ihfinfotech.github.io/icmdmimages/sammatthewcrossref.PNG)
 
-There are other scenarios you can perform under the Header Menu, such as view Merge Candidates, view History, look up which systems contributed to this golden record via accessing the reliability screen.  You can also unmerge records through the Source Cross Ref screen. If you have configured child screen, then they are visible under the Header menu as well. 
+There are other scenarios you can perform under the Header Menu, such as View Merge Candidates, Wiew History, look up which systems contributed to this golden record via the Reliability screen.  You can also Unmerge Records through the Source Cross Ref screen. If you have configured child screen, then they are visible under the Header Menu as well. 
 
 ![header menu](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
 
   
 ### Modeling
-iClassicMDM allows you to create your own models. You can access existing models or create new model. Follow the instructions under Create your first app tutorial. 
+iClassicMDM allows you to create your own Data Models. Users can either access Existing Models, or Create New Model. Follow the instructions under Create your First App Tutorial. 
 ![ERD Model](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)
 
 ### Data Stores
-Data stores are physical stores for files and logical pointers to existing iClassicMDM schemas, they are prerequisites and are essential for setting up Data flow pipelines. From the main menu which can be accessed by clicking the home button, choose, Manage Data Store menu.  This should give you a list of Data stores configured. 
+Data stores are physical stores for files and also contain logical pointers to existing iClassicMDM schemas. They are prerequisites and are essential for setting up Data flow pipelines. From the Main Menu which can be accessed by clicking the Home button, choose, Manage Data Store Menu.  This should give you a list of Data Stores configured. 
 
 ![Data Stores](https://ihfinfotech.github.io/icmdmimages/datastoreslist.PNG) 
 
-There are 2 types of data stores allowed currently, Excel and CDAXA.  Excel allows you to upload a worksheet, so you can import them into your application.  CDAXA data stores allows you to capture your target deployment container so you can use this as the target to map the excel data into.  
+There are 2 types of data stores currently allowed in iClassic MDM - Excel and CDAXA.  Excel allows you to upload a worksheet, so you can import the data into your iClassicMDM application.  CDAXA data stores allow you to capture your target deployment container so you can use this as the target to map the exisiting data from your Excel spreadsheets.  
 
-Target data store 
+Target Data Store 
 
 ![Target DS](https://ihfinfotech.github.io/icmdmimages/masterdatatarget.PNG)
 
-Source data store 
+Source Data Store 
 
 ![Source DS](https://ihfinfotech.github.io/icmdmimages/importexcelfile.PNG) 
 
-the save might take a while since the meta data is getting imported and made ready for the next Data flow pipelines step. 
+ The Save might take a while since the metadata is also being imported and is being made ready for the next Data Flow pipelines step. 
 
 
 
 ### Data flow pipelines 
-Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined as per the instructions in the previous section.  
-Each data flow pipe has the following main sections 
-1. Data store (Source), you can choose the table or collections, and attribute you want to extract 
+Data flow pipelines can be accessed by clicking on the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined per the instructions provided in the previous section.  
+Each Data Flow Pipe has the following main sections 
+1. Data store (Source),users can choose the table or collections, and the specific attributes you want to extract 
 2. Ingestion / Extract (Extract into a intermediate layer) 
 3. Map to target iClassicMDM Model that you created 
-4. Invoke the iClassicMDM batch api to cleanse, match, and load the data 
+4. Invoke the iClassicMDM Batch API to Cleanse, Match, and Load the data 
 
-Click on the configuration menu
+Click on the Configuration Menu
 ![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
 
-View list of data flow pipeline
+View list of Data Flow Pipeline
 ![Data flow pipeline](https://ihfinfotech.github.io/icmdmimages/dataflowpipelines.PNG)   
 
-Access a sample data flow pipeline instance 
+Access a Sample Data Flow Pipeline instance 
 ![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst.PNG)
 
- As you hover over the Data store/database symbol, click on the edit symbol, slanting pen. this should open up the details in the properties window below. 
+ As you hover over the Data store/Database symbol, click on the Edit pen symbol. This should open up the details in the Properties window below. 
  
  ![Hover on db](https://ihfinfotech.github.io/icmdmimages/hoverondb.PNG) 
  
- Expanded view of the properties, this shows the excel tabs as collections and the excel columns as attributes, in this example, all the columns are selected. 
+ Expanded view of the Properties, this shows the Excel tabs as collections and the Excel columns as Attributes. In this example, all the columns are selected. 
  
  ![Hover on db](https://ihfinfotech.github.io/icmdmimages/dsproperties.PNG) 
  
- Next, there is an extract stage, this stage moves the data as is into an intermediate table within ihf_xi database. similar to the above step, hover over the extract stage, rig symbol, and click on the  slanting pen.  This should provide you the details of this stage. You will not be able to adjust anything at this stage and is not recommended to do so. 
+ Next, there is an Extract Stage, this stage moves the data as is, into an intermediate table within ihf_xi database. Similar to the above step, hover over the Extract Stage, Rig symbol, and click on the Edit pen icon.  This should provide you the details of this stage. You will not be able to make eny edits at this stage, and is not recommended to do so. 
  
  ![Extract stage prop](https://ihfinfotech.github.io/icmdmimages/extractproperties.PNG) 
  
- Let's move to the next stage, called the Transform stage, represented by a model transforming from a pyramid into a cube.  Similary click on the slanting pen on  this stage to access the properties.   This stage is slightly different, now you perform 2 activities in this stage, select the target iclassicmdm schema and perform mapping from the intermediate stage to the target table. This transform stage will only move the data from the source into a staging table, the load stage is what moves the data into the actual base objects.  There is also property control flows such as Transform, Join and Filter that you can utilize, this needs some SQL scripting basics.  
+ The next stage, called the Transform Stage, is represented by a model transforming from a pyramid into a cube.  Click on the "Edit" pen icon in this stage to access the Properties.   This stage is slightly different: Users perform 2 activities in this stage. Select the target iclassicmdm schema and perform mapping from the intermediate stage to the target table. This transform stage will only move the data from the source into a staging table. The Load Stage is what moves the data into the actual Base objects.  There is also Property Control Flows such as Transform, Join, and Filter that users can leverage, these actions requires skill in SQL scripting basics.  
  
 ![Transform stage prop](https://ihfinfotech.github.io/icmdmimages/transformstageproperties.PNG) 
  
- Finally click on the Load stage, properties. In this stage, you select the iClassicMDM Batch APIs you want to execute, in this stage, may seem like you performed this exercise in the previous step, but this is a step which actually tells the application to move the data from staging into base objects.  The base objects kick off many jobs in the background and they are auto aware of the sequence based on your selction, for example if you try to load both child and parent in the same flow, they will automatically adjust to load the parent first and then load the child. 
+ Finally click on the Load stage, Properties. In this stage, you select the iClassicMDM Batch APIs you want to execute. It may seem like you performed this exercise in the previous step, but this is a step which actually tells the application to move the data from staging area into Base Objects.  The base objects kick off many jobs in the background and they are auto aware of the sequence based on your selction. For example, if you try to load both child and parent in the same flow, they will automatically adjust to load the parent first and then load the child. 
   
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
