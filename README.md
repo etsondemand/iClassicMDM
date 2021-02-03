@@ -227,14 +227,44 @@ the save might take a while since the meta data is getting imported and made rea
 
 
 ### Data flow pipelines 
-Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined as per the instructions in the previous section. 
+Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined as per the instructions in the previous section.  
+Each data flow pipe has the following main sections 
+1. Data store (Source), you can choose the table or collections, and attribute you want to extract 
+2. Ingestion / Extract (Extract into a intermediate layer) 
+3. Map to target iClassicMDM Model that you created 
+4. Invoke the iClassicMDM batch api to cleanse, match, and load the data 
 
+Click on the configuration menu
 ![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
 
+View list of data flow pipeline
 ![Data flow pipeline](https://ihfinfotech.github.io/icmdmimages/dataflowpipelines.PNG)   
 
+Access a sample data flow pipeline instance 
 ![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst.PNG)
 
+ As you hover over the Data store/database symbol, click on the edit symbol, slanting pen. this should open up the details in the properties window below. 
+ 
+ ![Hover on db](https://ihfinfotech.github.io/icmdmimages/hoverondb.PNG) 
+ 
+ Expanded view of the properties, this shows the excel tabs as collections and the excel columns as attributes, in this example, all the columns are selected. 
+ 
+ ![Hover on db](https://ihfinfotech.github.io/icmdmimages/dsproperties.PNG) 
+ 
+ Next, there is an extract stage, this stage moves the data as is into an intermediate table within ihf_xi database. similar to the above step, hover over the extract stage, rig symbol, and click on the  slanting pen.  This should provide you the details of this stage. You will not be able to adjust anything at this stage and is not recommended to do so. 
+ 
+ ![Extract stage prop](https://ihfinfotech.github.io/icmdmimages/extractproperties.PNG) 
+ 
+ Let's move to the next stage, called the Transform stage, represented by a model transforming from a pyramid into a cube.  Similary click on the slanting pen on  this stage to access the properties.   This stage is slightly different, now you perform 2 activities in this stage, select the target iclassicmdm schema and perform mapping from the intermediate stage to the target table. This transform stage will only move the data from the source into a staging table, the load stage is what moves the data into the actual base objects.  There is also property control flows such as Transform, Join and Filter that you can utilize, this needs some SQL scripting basics.  
+ 
+![Transform stage prop](https://ihfinfotech.github.io/icmdmimages/transformstageproperties.PNG) 
+ 
+ Finally click on the Load stage, properties. In this stage, you select the iClassicMDM Batch APIs you want to execute, in this stage, may seem like you performed this exercise in the previous step, but this is a step which actually tells the application to move the data from staging into base objects.  The base objects kick off many jobs in the background and they are auto aware of the sequence based on your selction, for example if you try to load both child and parent in the same flow, they will automatically adjust to load the parent first and then load the child. 
+ 
+![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
+ 
+ 
+ 
  
 
 
