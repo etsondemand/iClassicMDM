@@ -203,14 +203,14 @@ There are other scenarios you can perform under the Header Menu, such as view Me
 ![header menu](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
 
  
-#### Modeling
+### Modeling
 iClassicMDM allows you to create your own models. You can access existing models or create new model. Follow the instructions under Create your first app tutorial. 
 ![ERD Model](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)
 
 ### Data Stores
 Data stores are physical stores for files and logical pointers to existing iClassicMDM schemas, they are prerequisites and are essential for setting up Data flow pipelines. From the main menu which can be accessed by clicking the home button, choose, Manage Data Store menu.  This should give you a list of Data stores configured. 
 
-![Data Stores](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)datastoreslist.PNG) 
+![Data Stores](https://ihfinfotech.github.io/icmdmimages/datastoreslist.PNG) 
 
 There are 2 types of data stores allowed currently, Excel and CDAXA.  Excel allows you to upload a worksheet, so you can import them into your application.  CDAXA data stores allows you to capture your target deployment container so you can use this as the target to map the excel data into.  
 
