@@ -202,7 +202,7 @@ There are other scenarios you can perform under the Header Menu, such as view Me
 
 ![header menu](https://ihfinfotech.github.io/icmdmimages/sommattcreated.PNG) 
 
- 
+  
 ### Modeling
 iClassicMDM allows you to create your own models. You can access existing models or create new model. Follow the instructions under Create your first app tutorial. 
 ![ERD Model](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)
