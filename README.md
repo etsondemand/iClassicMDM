@@ -204,7 +204,25 @@ There are other scenarios you can perform under the Header Menu, such as view Me
 
  
 #### Modeling
-iClassicMDM allows you to create your own models. 
+iClassicMDM allows you to create your own models. You can access existing models or create new model. Follow the instructions under Create your first app tutorial. 
+![ERD Model](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)
+
+### Data Stores
+Data stores are physical stores for files and logical pointers to existing iClassicMDM schemas, they are prerequisites and are essential for setting up Data flow pipelines. 
+
+### Data flow pipelines 
+Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu. 
+![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
+
+![Data flow pipeline](https://ihfinfotech.github.io/icmdmimages/dataflowpipelines.PNG)   
+
+![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst)
+
+
+
+
+
+
  
 ### Support or Contact
 
