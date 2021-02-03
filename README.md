@@ -235,7 +235,7 @@ Data flow pipelines can be accessed by pressing the Home button and accessing th
 
 ![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst.PNG)
 
-
+ 
 
 
 
