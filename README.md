@@ -169,7 +169,7 @@ now you can access your application by clicking the link under the Deployment Ty
 
 
 ### Quick tour
-The application can be accessed from the main welcome menu. If you click the Home button, you should be able to view the following.  Notice that you will not see the newly created application, Master Data, in the dashboard. Now you can go ahead and either view the model or access the data.  Let's click on Manage Data.
+The application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your first app" then you should see, Master Data, in the dashboard. Now you can go ahead and either view the model or access the data.  Let's click on Manage Data.
 
 ![Main Menu Updated](https://ihfinfotech.github.io/icmdmimages/applicationwelcomeupdatedwithmasterdataconfig.PNG)
 
