@@ -260,7 +260,7 @@ Access a sample data flow pipeline instance
 ![Transform stage prop](https://ihfinfotech.github.io/icmdmimages/transformstageproperties.PNG) 
  
  Finally click on the Load stage, properties. In this stage, you select the iClassicMDM Batch APIs you want to execute, in this stage, may seem like you performed this exercise in the previous step, but this is a step which actually tells the application to move the data from staging into base objects.  The base objects kick off many jobs in the background and they are auto aware of the sequence based on your selction, for example if you try to load both child and parent in the same flow, they will automatically adjust to load the parent first and then load the child. 
- 
+  
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
  
