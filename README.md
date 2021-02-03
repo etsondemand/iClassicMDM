@@ -215,9 +215,11 @@ Data stores are physical stores for files and logical pointers to existing iClas
 There are 2 types of data stores allowed currently, Excel and CDAXA.  Excel allows you to upload a worksheet, so you can import them into your application.  CDAXA data stores allows you to capture your target deployment container so you can use this as the target to map the excel data into.  
 
 Target data store 
+
 ![Target DS](https://ihfinfotech.github.io/icmdmimages/masterdatatarget.PNG)
 
 Source data store 
+
 ![Source DS](https://ihfinfotech.github.io/icmdmimages/importexcelfile.PNG) 
 
 the save might take a while since the meta data is getting imported and made ready for the next Data flow pipelines step. 
