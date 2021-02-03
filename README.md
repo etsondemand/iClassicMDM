@@ -208,15 +208,30 @@ iClassicMDM allows you to create your own models. You can access existing models
 ![ERD Model](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)
 
 ### Data Stores
-Data stores are physical stores for files and logical pointers to existing iClassicMDM schemas, they are prerequisites and are essential for setting up Data flow pipelines. 
+Data stores are physical stores for files and logical pointers to existing iClassicMDM schemas, they are prerequisites and are essential for setting up Data flow pipelines. From the main menu which can be accessed by clicking the home button, choose, Manage Data Store menu.  This should give you a list of Data stores configured. 
+
+![Data Stores](https://ihfinfotech.github.io/icmdmimages/erdmodelcontactmdm.PNG)datastoreslist.PNG) 
+
+There are 2 types of data stores allowed currently, Excel and CDAXA.  Excel allows you to upload a worksheet, so you can import them into your application.  CDAXA data stores allows you to capture your target deployment container so you can use this as the target to map the excel data into.  
+
+Target data store 
+![Target DS](https://ihfinfotech.github.io/icmdmimages/masterdatatarget.PNG)
+
+Source data store 
+![Source DS](https://ihfinfotech.github.io/icmdmimages/importexcelfile.PNG) 
+
+the save might take a while since the meta data is getting imported and made ready for the next Data flow pipelines step. 
+
+
 
 ### Data flow pipelines 
-Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu. 
+Data flow pipelines can be accessed by pressing the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined as per the instructions in the previous section. 
+
 ![Configuration Menu](https://ihfinfotech.github.io/icmdmimages/applicationwelcome.PNG)   
 
 ![Data flow pipeline](https://ihfinfotech.github.io/icmdmimages/dataflowpipelines.PNG)   
 
-![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst)
+![Data flow pipeline inst ](https://ihfinfotech.github.io/icmdmimages/dataflowipeline_inst.PNG)
 
 
 
