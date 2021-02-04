@@ -263,8 +263,11 @@ Access a Sample Data Flow Pipeline instance
   
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
- 
- 
+ ### Product Availability Matrix
+ Operating system - Linux, Windows, Mac OS, Linux Containers 
+ Browser support - Chrome 
+ RDBMS - SQL Lite, Microsoft SQL Server 2016 onwards 
+ Contact us for additional support for different flavors of RDBMS or NoSQL choice.  
  
 
 
