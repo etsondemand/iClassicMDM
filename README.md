@@ -272,7 +272,7 @@ Container: Linux Docker Container, Kubernates Orchestrating Engine
 If you have additional need for other RDBMS or NoSQL, please contact us.
 
 ### Product download 
-[link](https://www.ihfinfotech.com/downloadicmdm.html) 
+[click to goto iclassicmdm download page](https://www.ihfinfotech.com/downloadicmdm.html) 
 
 ### Support or Contact
  
