@@ -264,9 +264,11 @@ Access a Sample Data Flow Pipeline instance
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
 ### Product availability matrix 
+We currently support the following
 Operating System : Linux, Windows, Mac OS
 Browser : Chrome, Safari, Internet Explorer 
 RDMBS: SQL Lite, Microsoft SQL Server
+Container: Linux Docker Container, Kubernates Orchestrating Engine
 If you have additional need for other RDBMS or NoSQL, please contact us.
 
 
