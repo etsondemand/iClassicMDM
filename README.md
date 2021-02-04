@@ -209,7 +209,7 @@ iClassicMDM allows you to create your own Data Models. Users can either use Exis
 
 The model canvas, allows you to create or delete relationships between entities.  You can also move the entities around by dragging them around.  In order to add or delete columns or tables, you need to access the Glossary UI by clicking on the manage model pen icon. 
 
-![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG
+![View Application Config](https://ihfinfotech.github.io/icmdmimages/accessmodelerconfig.PNG)
 
 ### Data Stores
 Data stores are physical stores for files and also contain logical pointers to existing iClassicMDM schemas. They are pre-requisites and are essential for setting up Data Flow pipelines. From the Main Menu which can be accessed by clicking the Home button, choose Manage Data Store Menu.  This should give you a list of the Data Stores that have been configured. 
