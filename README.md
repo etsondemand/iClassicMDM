@@ -143,7 +143,7 @@ Finally click on Header Menu (Note: the Header can display only its own attribut
 
 ![View Header UI Layout](https://ihfinfotech.github.io/icmdmimages/headerpersonuilayout.PNG)
 
-### Deploy application
+### Deploy Application
 Go to the Configuration Menu, by clicking the Home button, Then click the Manage Configuration menu.  
 ![Access Master Data Config](https://ihfinfotech.github.io/icmdmimages/accessmasterdataconfig.PNG) 
 
@@ -151,7 +151,7 @@ Go to the Configuration Menu, by clicking the Home button, Then click the Manage
 
 ![Assign config to deployment](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup.PNG) 
 
- Choose an unused deploymentgroup, in this case we will pick, containerd.
+ Choose an unused deployment group, in this case we will pick, containerd.
 ![Assign config to deployment ii](https://ihfinfotech.github.io/icmdmimages/assignconfigtodeploymentgroup_ii.PNG) 
 
  Click Save and then press the Close button. Now this should look as follows  
@@ -168,7 +168,7 @@ Go to the Configuration Menu, by clicking the Home button, Then click the Manage
 
 
 
-### Quick tour
+### Quick Tour
 The iClassid MDM application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your First App" then you should see, Master Data, in the dashboard. Now users can either view the model, or access the data.  Click on Manage Data.
 
 ![Main Menu Updated](https://ihfinfotech.github.io/icmdmimages/applicationwelcomeupdatedwithmasterdataconfig.PNG)
@@ -226,7 +226,7 @@ Source Data Store
 
 
 
-### Data flow pipelines 
+### Data Flow Pipelines 
 Data flow pipelines can be accessed by clicking on the Home button and accessing the Manage Data Flow menu.  Before you create new pipelines, ensure the data store is defined per the instructions provided in the previous section.  
 Each Data Flow Pipe has the following main sections 
 1. Data store (Source),users can choose the table or collections, and the specific attributes you want to extract 
@@ -263,11 +263,8 @@ Access a Sample Data Flow Pipeline instance
   
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
- ### Product Availability Matrix
- Operating system - Linux, Windows, Mac OS, Linux Containers 
- Browser support - Chrome 
- RDBMS - SQL Lite, Microsoft SQL Server 2016 onwards 
- Contact us for additional support for different flavors of RDBMS or NoSQL choice.  
+ 
+ 
  
 
 
