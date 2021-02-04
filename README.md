@@ -264,13 +264,6 @@ Access a Sample Data Flow Pipeline instance
 ![Load store prop](https://ihfinfotech.github.io/icmdmimages/loadstoreproperties.PNG)
  
  
- 
- 
-
-
-
- 
- 
 ### Support or Contact
 
 For further questions please email us at info@ihfinfotech.com . 
