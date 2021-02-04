@@ -26,7 +26,7 @@ Let's begin by creating a Model.  Under "Home", click on "Manage Configurations"
 
  After the page loads, click "Add Configuration"
 ![Add Configuration](https://ihfinfotech.github.io/icmdmimages/manageconfigs.PNG)
-     
+      
  Enter a new name, say for example "Master Data"  
 ![Add Configuration](https://ihfinfotech.github.io/icmdmimages/newconfig.PNG)
 
