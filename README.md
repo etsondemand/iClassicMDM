@@ -5,6 +5,7 @@ iClassicMDM by IHF Infotech, is an easy-to-use , yet powerful Master Data Manage
 
 ### Installation
 
+#### Desktop
 Download iClassicMDM from, https://www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
 
 ```markdown
@@ -17,7 +18,23 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production 
 ```
- 
+#### Linux containers on Docker
+Ensure docker is installed on the machine. At the command prompt run the following commands
+docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
+docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
+goto http://localhost:9000 to view the deployment
+
+#### Linux container on Kubernates 
+Download icmdm_kubectl_6.yaml from the download page
+run kubectl apply –f icmdm_kubectl_6.yaml
+run kubectl get svc ;  to retrieve the nodeport (example: 32060) 
+finally point the browser to localhost:32060 to access the application 
+further more you can create port forwarding to access this as well. 
+First run kubectl get pods ; to get the pod name   
+kubectl port-forward iclassicmdmcloudonkubernates-sdsds 7081:80 ; in which case you can access the application via locahost:7081
+
+
+
 ### Create your First App
 
 Let's begin by creating a Model.  Under "Home", click on "Manage Configurations"
