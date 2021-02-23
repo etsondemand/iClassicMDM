@@ -19,19 +19,19 @@ info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production 
 ```
 #### Docker Linux
-Ensure docker is installed on the machine. At the command prompt run the following commands
-docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
-docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
-goto http://localhost:9000 to view the deployment
+- Ensure docker is installed on the machine. At the command prompt run the following commands
+- docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
+- docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
+- goto http://localhost:9000 to view the deployment
 
 #### Kubernates Linux 
-Download icmdm_kubectl_6.yaml from the download page
-run kubectl apply –f icmdm_kubectl_6.yaml
-run kubectl get svc ;  to retrieve the nodeport (example: 32060) 
-finally point the browser to localhost:32060 to access the application 
-further more you can create port forwarding to access this as well. 
-First run kubectl get pods ; to get the pod name   
-kubectl port-forward iclassicmdmcloudonkubernates-sdsds 7081:80 ; in which case you can access the application via locahost:7081
+- Download icmdm_kubectl_6.yaml from the download page
+- run kubectl apply –f icmdm_kubectl_6.yaml
+- run kubectl get svc ;  to retrieve the nodeport (example: 32060) 
+- finally point the browser to localhost:32060 to access the application 
+- further more you can create port forwarding to access this as well. 
+- First run kubectl get pods ; to get the pod name   
+- kubectl port-forward iclassicmdmcloudonkubernates-sdsds 7081:80 ; in which case you can access the application via locahost:7081
 
 #### Mac OS 
 Send us an email at info@ihfinfotech.com for additional OS binaries.
