@@ -19,10 +19,10 @@ info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production 
 ```
 #### Docker Linux
-- Ensure docker is installed on the machine. At the command prompt run the following commands
-- docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
-- docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
-- goto http://localhost:9000 to view the deployment
+-Ensure docker is installed on the machine. At the command prompt run the following commands
+-docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
+-docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
+-goto http://localhost:9000 to view the deployment
 
 #### Kubernates Linux 
 - Download icmdm_kubectl_6.yaml from the download page
