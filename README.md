@@ -23,7 +23,7 @@ info: Microsoft.Hosting.Lifetime[0]
 - docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
 - docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
 - goto http://localhost:9000 to view the deployment
-  
+   
 #### Kubernates Linux 
 - Download icmdm_kubectl_6.yaml from the download page
 - run kubectl apply –f icmdm_kubectl_6.yaml
