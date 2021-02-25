@@ -6,7 +6,7 @@ iClassicMDM by IHF Infotech, is an easy-to-use , yet powerful Master Data Manage
 ### Installation
 
 #### Desktop
-Download iClassicMDM from, https://www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
+Download iClassicMDM from, www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
 
 ```markdown
 info: Microsoft.Hosting.Lifetime[0]
