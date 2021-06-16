@@ -1,4 +1,4 @@
-![iClassicMDM](https://ihfinfotech.github.io/icmdmimages/ICMDM-logo-700px-RGB.jpg)
+![iClassicMDM](https://etsondemand.github.io/icmdmimages/ICMDM-logo-700px-RGB.jpg)
           
 ## Introduction
 iClassicMDM by IHF Infotech, is an easy-to-use , yet powerful Master Data Management Application which seamlessly consolidates data, deduplicates, ranks by reliable source and creates trusted golden records.  The following rich features are baked into iClassic MDM: data stewardship workflows, data quality, cleansing, matching, ETL, data flow pipelines, a data modeler, API builder, data stores, and deployment automation.   iClassic MDM was built by a team that is deeply passionate and committed to simplifying data management and putting this mission-critical initiative within the reach of individuals and enterprises of all sizes.  The databases within iClassicMDM are built-in, thus enabling the application to run on all operating systems OS - Linux, Windows, or Mac, and also upon all IOT devices.
@@ -6,7 +6,7 @@ iClassicMDM by IHF Infotech, is an easy-to-use , yet powerful Master Data Manage
 ### Installation
 
 #### Desktop
-Download iClassicMDM from, https://www.ihfinfotech.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
+Download iClassicMDM from, https://www.etsondemand.com/downloadicmdm.html , double click, cdaxastudiocore.exe, and point your browser to http://localhost:50001 . Login using admin/admin credentials. 
   
 ```markdown
 info: Microsoft.Hosting.Lifetime[0]
