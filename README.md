@@ -24,7 +24,7 @@ info: Microsoft.Hosting.Lifetime[0]
 - docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
 - goto http://localhost:9000 to view the deployment
    
-#### Kubernates Linux 
+#### Kubernates Linux  
 - Download icmdm_kubectl_6.yaml from the download page
 - run kubectl apply –f icmdm_kubectl_6.yaml
 - run kubectl get svc ;  to retrieve the nodeport (example: 32060) 
