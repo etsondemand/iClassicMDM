@@ -20,13 +20,13 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 #### Docker Linux
 - Ensure docker is installed on the machine. At the command prompt run the following commands
-- docker pull icmdmihf/iclassicmdmcloudonkubernates:v6
-- docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v6
+- docker pull icmdmihf/iclassicmdmcloudonkubernates:v7
+- docker run --rm -it -p 9000:80 icmdmihf/iclassicmdmcloudonkubernates:v7
 - goto http://localhost:9000 to view the deployment
    
 #### Kubernates Linux  
-- Download icmdm_kubectl_6.yaml from the download page
-- run kubectl apply –f icmdm_kubectl_6.yaml
+- Download icmdm_kubectl_7.yaml from the download page
+- run kubectl apply –f icmdm_kubectl_7.yaml
 - run kubectl get svc ;  to retrieve the nodeport (example: 32060) 
 - finally point the browser to localhost:32060 to access the application 
 - further more you can create port forwarding to access this as well. 
@@ -187,7 +187,7 @@ Go to the Configuration Menu, by clicking the Home button, Then click the Manage
 
 
 ### Quick Tour
-The iClassid MDM application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your First App" then you should see, Master Data, in the dashboard. Now users can either view the model, or access the data.  Click on Manage Data.
+The iClassic MDM application can be accessed from the main welcome menu. If you click the Home button, you should be able to view existing application or newly deployed applications.  If you are continuning the tutorial "Create your First App" then you should see, Master Data, in the dashboard. Now users can either view the model, or access the data.  Click on Manage Data.
 
 ![Main Menu Updated](https://etsondemand.github.io/icmdmimages/applicationwelcomeupdatedwithmasterdataconfig.PNG)
 
